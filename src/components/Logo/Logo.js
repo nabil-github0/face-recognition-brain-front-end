@@ -11,10 +11,10 @@ const Logo = () => {
         glare
         scale={1}
         maxGlare={5}
-        style={{ height: 120, width: 120 }}
+        style={{ height: 107, width: 107 }}
       >
         <div className="inner pa3">
-          <img style={{ paddingTop: "10px" }} alt="logo" src={brain} />
+          <img style={{ paddingTop: "7px" }} alt="logo" src={brain} />
         </div>
       </Tilty>
     </div>

@@ -370,7 +370,7 @@ const particlesConfig = {
     number: {
       density: {
         enable: true,
-        area: 700,
+        area: 600,
         factor: 1000,
       },
       limit: 0,

@@ -1,3 +1,10 @@
 .tilty {
     background: linear-gradient(to right, rgb(100, 206, 204), rgb(148, 69, 201));
 }
+
+@media only screen and (max-width:499px) {
+    .tilty{
+        height:110px;
+        width:110px
+    }
+}
