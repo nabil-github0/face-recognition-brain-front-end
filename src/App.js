@@ -51,10 +51,10 @@ class App extends Component {
     const height = Number(image.height);
     const faceCoordinates = clarifaiFace.map (face => {
       return {
-        leftCol: clarifaiFace.left_col * width,
-        topRow: clarifaiFace.top_row * height,
-        rightCol: width - clarifaiFace.right_col * width,
-        bottomRow: height - clarifaiFace.bottom_row * height,
+        leftCol: face.left_col * width,
+        topRow: face.top_row * height,
+        rightCol: width - face.right_col * width,
+        bottomRow: height - face.bottom_row * height,
       };
     });
     return faceCoordinates;
