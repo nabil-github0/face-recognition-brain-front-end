@@ -9,10 +9,6 @@ const Particle = () => {
     // // starting from v2 you can add only the features you need reducing the bundle size
     await loadFull(main);
   };
-
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
   return (
     <Particles
       id="tsparticles"
