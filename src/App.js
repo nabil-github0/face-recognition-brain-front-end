@@ -46,9 +46,9 @@ class App extends Component {
     const dataArray = data.outputs[0].data.regions;
     for(let i of dataArray) {
       let clarifaiFace = i.region_info.bounding_box;
-    const image = document.getElementById("inputImage");
-    const width = Number(image.width);
-    const height = Number(image.height);
+    let image = document.getElementById("inputImage");
+    let width = Number(image.width);
+    let height = Number(image.height);
     return {
       leftCol: clarifaiFace.left_col * width,
       topRow: clarifaiFace.top_row * height,
